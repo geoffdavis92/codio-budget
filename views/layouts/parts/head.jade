@@ -1,0 +1,8 @@
+doctype html
+head
+    meta(name="keywords" content="geoff,davis,code,nodejs,sass,html5,express,grunt")
+    meta(name="author" content="geoff davis <geoffdavis92@gmail.com>")
+    title #{title} | Budget App
+    if scripts
+        for item in scripts
+            script(src="${item}.js" data-type="controller")
